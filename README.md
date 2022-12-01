@@ -6,4 +6,4 @@ So I will post them in this repository according to my autonomous learning.
 Here is my list of completed projects by section :
 
 Relational Database (Beta) :
-- Celestial Bodies Database - 
+- Celestial Bodies Database - universe.sql
