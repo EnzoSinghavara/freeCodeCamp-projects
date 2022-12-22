@@ -39,3 +39,4 @@ echo "$($PSQL "SELECT year, name FROM teams RIGHT JOIN games ON teams.team_id = 
 
 echo -e "\nList of teams that start with 'Co':"
 echo "$($PSQL "SELECT DISTINCT(name) FROM teams, games WHERE (teams.team_id = games.winner_id OR teams.team_id = games.opponent_id) AND (name LIKE 'Co%')")"
+
